@@ -1,5 +1,5 @@
-# Rentalin Mobil
-Rentalin-Mobil adalah aplikasi mobile yang diperuntukan untuk memudahkan proses sewa menyewa kendaraan.
+# Rentalin Master
+Rentalin-Master adalah aplikasi mobile yang diperuntukan untuk memudahkan proses sewa menyewa.
 
 ### Kelompok
 1. Muhamad Faisal Ilham [NIM: 312210322]
