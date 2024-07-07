@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.BookingActivity">
+
+    <ScrollView
+        android:padding="10dp"
+        android:id="@+id/sc_registration_booking"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_marginBottom="70dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="KODE : Toyota (TYT)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc_code_car_tyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" />
+
+            <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/rc_my_book"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingBottom="30dp"/>-->
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="KODE : Daihatsu (DHS)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc_code_car_dhs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="KODE : Suzuki (SZK)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc_code_car_szk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="ADD DATA"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_add_data"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_button"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
