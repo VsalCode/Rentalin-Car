@@ -5,6 +5,6 @@ Rentalin-car adalah aplikasi mobile yang diperuntukan untuk mempermudahkan prose
 1. Muhamad Faisal Ilham [NIM: 312210322]
 2. Ozin Ardianto [NIM: 31210201]
 
-Kelas : TI.22.C3 | Prodi : Teknik Informatika | Univ  : Universitas Pelita Bangsa
+Kelas : TI.22.C3 | Prodi : Teknik Informatika | Universitas Pelita Bangsa
 
 Aplikasi ini diperuntukan untuk memenuhi tugas dari matakuliah Pemograman Mobile
